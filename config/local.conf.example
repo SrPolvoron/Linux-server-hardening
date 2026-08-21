@@ -1,0 +1,8 @@
+# Copy to config/local.conf and customize.
+ADMIN_USER=jfernandez
+# ADMIN_SSH_PUBLIC_KEY="ssh-ed25519 AAAA... user@host"
+SSH_PORT=2255
+ADD_ADMIN_TO_DOCKER_GROUP=yes
+ALLOW_REPO_ENABLE=no
+SELINUX_TARGET_MODE=enforcing
+SELINUX_AUTO_ENFORCE=no
